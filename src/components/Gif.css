@@ -1,0 +1,29 @@
+.gifContainer {
+    border: 1px solid white;
+}
+
+.gifContainer h4 {
+    color: white;
+}
+
+.gifContainer img {
+    width: 300px;
+    height: auto;
+    border: 5px solid black;
+    margin: 1rem;
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: all 0.5s;
+}
+
+.gifContainer img:hover {
+    box-shadow: 0 0 10px black;
+    filter: grayscale(0);
+}
+
+.gifContainer p {
+    background-color: crimson;
+    border: 4px solid black;
+    padding: 0.5rem;
+    font-weight: 300;
+}
